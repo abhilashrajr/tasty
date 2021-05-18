@@ -1,0 +1,86 @@
+.ag-format-container {
+  /*width: 1142px;*/
+  margin: 0 auto;
+  margin-top: -125px;
+}
+
+.ag-sherlock-block {
+  padding-top: 0;
+ 
+}
+.ag-sherlock {
+  height: 10.375em;
+ /*width: 45.8125em;
+  
+  -webkit-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+  background-size: 100% 100%;
+
+  z-index: 5;
+  position: relative;*/
+}
+
+
+@media only screen and (max-width: 1920px) {
+  .ag-sherlock_smoke1 {
+ display: block;
+
+    height: 23.875em;
+    width: 30.875em;
+    opacity: 1;
+    position: absolute;
+    top: -46.9375em;
+    right: 9.1875em;
+
+  -webkit-transition: opacity 2.4s linear;
+  -moz-transition: opacity 2.4s linear;
+  -o-transition: opacity 2.4s linear;
+  transition: opacity 2.4s linear;
+}
+
+}
+
+
+@media only screen and (max-width: 767px) {
+  .ag-format-container {
+    width: 96%;
+  }
+
+}
+
+@media only screen and (max-width: 639px) {
+
+}
+
+@media only screen and (max-width: 479px) {
+	
+.ag-sherlock_smoke {
+ display: block;
+    height: 23.875em;
+    width: 30.875em;
+    opacity: 1;
+    position: absolute;
+    top: -28.9375em;
+    right: 1.1875em;
+
+  -webkit-transition: opacity 2.4s linear;
+  -moz-transition: opacity 2.4s linear;
+  -o-transition: opacity 2.4s linear;
+  transition: opacity 2.4s linear;
+}
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+  .ag-format-container {
+    width: 750px;
+  }
+
+}
+
+@media (min-width: 980px) and (max-width: 1161px) {
+  .ag-format-container {
+    width: 960px;
+  }
+
+}
